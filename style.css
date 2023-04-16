@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+:root {
+  --color-primary: #E8C1A4;
+  --color-secundary: #31536E;
+  --color-contrast: aqua;
+
+  --color-dark: black;
+  --color-light: whitesmoke;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Prata', serif;
+  list-style: none;
+}
+
+body {
+  background-color: var(--color-secundary);
+  color: var(--color-primary);
+  padding: 0.5rem 2rem;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+
+main {
+  min-height: calc((105vh - 10vh - 8vh) - 1rem);
+  display: flex;
+  align-items: center;
+  /* border: 1px solid green; */
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: 800;
+  /* border: 1px solid black; */
+  background: rgb(252,69,69);
+  background: linear-gradient(45deg, 
+  rgba(252,69,69,1) 0%, 
+  rgba(29,253,89,1) 50%, 
+  rgba(58,114,180,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin: 1rem 0;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 720px) { 
+
+  h1 {
+    font-size: 4rem;
+  }
+  
+}
+
+@media screen and (max-width: 320px) { 
+
+  main {
+    /* border: 1px solid red; */
+    min-height: calc((95vh - 10vh - 8vh) - 1rem);
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+}

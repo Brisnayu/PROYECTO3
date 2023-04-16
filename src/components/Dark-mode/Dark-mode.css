@@ -1,0 +1,23 @@
+.light {
+    color: var(--color-secundary);
+    background-color: var(--color-primary);
+}
+
+.new-gradient {
+    background: rgb(25,250,255);
+    background: linear-gradient(45deg, rgba(25,250,255,1) 0%, rgba(29,52,253,1) 50%, rgba(58,114,180,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+/* .invertir {
+    background-color: var(--color-secundary);
+    color: var(--color-contrast);
+}
+  
+.texto {
+    background-color: red;
+    color: var(--color-contrast);
+} */
+

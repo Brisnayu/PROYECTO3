@@ -1,0 +1,132 @@
+.article-header {
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+li > a {
+    font-size: 1.4rem;
+    display: inline-block;
+    position: relative;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+li > a:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    transition: all .8s;
+}
+li > a:hover:after {
+    width: 100%;
+    background: var(--color-contrast);
+}
+
+.header-navbar {
+    width: 100%;
+    margin-left: 5rem;
+    margin-top: -4rem;
+    display: flex;
+    align-items: flex-end;
+}
+  
+header nav > ul {
+    display: flex;
+    gap: 7rem;
+}
+  
+header .logo {
+    width: 60px;
+    padding-top: 6px;
+}
+
+button > img {
+    width: 50px;
+}
+  
+header button {
+    background: transparent;
+    border: none;
+    transform: scale(1.5);
+    cursor: pointer;
+    position: sticky;
+	top: 1rem;
+}
+
+label, input[type="checkbox"] {
+    display: none;
+}
+
+
+@media screen and (max-width: 720px) {
+
+    .article-header {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .header-navbar {
+        /* border: 1px solid green; */
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .nav-label {
+        font-size: 2rem;
+        padding: 0.6rem;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 1rem;
+    }
+
+    .menu  {
+        /* background-color: gray; */
+        /* filter: invert(27%) sepia(83%) saturate(265%) hue-rotate(164deg) brightness(95%) contrast(97%); */
+        width: 3rem;
+        filter: invert(97%) sepia(3%) saturate(6637%) hue-rotate(305deg) brightness(100%) contrast(82%);
+    }
+
+    .navbar {
+      display: none;
+    }
+    
+    #hamburger:checked ~ .navbar {
+        display: block;
+    }
+    
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 1rem;
+        /* border: 1px solid white; */
+    }
+
+    
+  }
+
+@media screen and (max-width: 375px) {
+   .image-header {
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,130 @@
+@import "../../../style.css";
+
+footer {
+    min-width: 10vh;
+    /* border: 1px solid yellow; */
+}
+
+.contacts {
+    background-color: var(--color-primary);
+    /* margin-top: -20px; */
+    width: 5rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 1rem;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+    /* border: 3px solid wheat; */
+}
+
+.contacts img, .icon-footer {
+    width: 50px;
+    filter: invert(27%) sepia(83%) saturate(265%) hue-rotate(164deg) brightness(95%) contrast(97%);
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.reserved {
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: end;
+    
+}
+
+.rrss {
+    background-color: var(--color-primary);
+    /* margin-top: -20px; */
+    width: 5rem;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 0;
+    position: sticky;
+    position: absolute;
+    top: calc(100% - 351px);
+    
+    right: 0;
+}
+
+.rrss a {
+    display: none;
+    cursor: pointer;
+}
+
+.location, .email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text-location {
+    rotate: 270deg;
+    margin-bottom: 2rem;
+    color: var(--color-secundary);
+    display: none;
+    
+}
+
+#text-email {
+    rotate: 270deg;
+    margin-bottom: 7rem;
+    margin-top: 6rem;
+    color: var(--color-secundary);
+    display: none;
+}
+
+/* .show {
+    display: block;
+} */
+
+
+span {
+    background: rgb(252,69,69);
+    background: linear-gradient(45deg, 
+    rgba(252,69,69,1) 0%, 
+    rgba(29,253,89,1) 50%, 
+    rgba(58,114,180,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rrss-movil {
+    display: none;
+}
+
+@media screen and (max-width: 320px) { 
+
+    .contacts, .rrss {
+        display: none;
+    }
+
+    .rrss-movil img {
+        width: 40px;
+        filter: invert(78%) sepia(7%) saturate(1569%) hue-rotate(336deg) brightness(108%) contrast(82%);
+    }
+
+    .rrss-movil {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 1rem 0;
+    }
+
+}
