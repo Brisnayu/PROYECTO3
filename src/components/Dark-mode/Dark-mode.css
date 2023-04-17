@@ -1,6 +1,6 @@
 .light {
     color: var(--color-secundary);
-    background-color: var(--color-primary);
+    background-color: #f5f9f9;
 }
 
 .new-gradient {

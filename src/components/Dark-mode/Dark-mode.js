@@ -1,4 +1,4 @@
-const gradientPink = "invert(78%) sepia(7%) saturate(1569%) hue-rotate(336deg) brightness(108%) contrast(82%)";
+const gradientPink = "invert(100%) sepia(15%) saturate(1135%) hue-rotate(158deg) brightness(103%) contrast(95%)";
 const gradientBlue = "invert(27%) sepia(83%) saturate(265%) hue-rotate(164deg) brightness(95%) contrast(97%)";
 
 export const changeTheme = () => {
@@ -55,8 +55,8 @@ console.log(colorMovil)
 
         // Cambio de color, texto del footer
         textSide.forEach(element => {
-            if(element.style.color!== "var(--color-primary)") {
-                element.style.color = "var(--color-primary)";
+            if(element.style.color!== "var(--color-light)") {
+                element.style.color = "var(--color-light)";
             } else {
                 element.style.color = "var(--color-secundary)";
             }

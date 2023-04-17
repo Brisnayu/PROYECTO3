@@ -3,10 +3,10 @@
 :root {
   --color-primary: #E8C1A4;
   --color-secundary: #31536E;
-  --color-contrast: aqua;
+  --color-contrast: #83cdd8;
 
   --color-dark: black;
-  --color-light: whitesmoke;
+  --color-light: #f5f9f9;
 }
 
 
@@ -30,14 +30,14 @@ body {
 }
 
 main {
-  min-height: calc((105vh - 10vh - 8vh) - 1rem);
+  min-height: calc((96vh - 10vh - 8vh) - 1rem);
   display: flex;
   align-items: center;
   /* border: 1px solid green; */
 }
 
 h1 {
-  font-size: 8rem;
+  font-size: 5rem;
   font-weight: 800;
   /* border: 1px solid black; */
   background: rgb(252,69,69);
@@ -68,11 +68,12 @@ p {
   
 }
 
-@media screen and (max-width: 320px) { 
+@media screen and (max-width: 590px) { 
 
   main {
     /* border: 1px solid red; */
     min-height: calc((95vh - 10vh - 8vh) - 1rem);
+    margin-top: 1rem;
   }
 
   h1 {

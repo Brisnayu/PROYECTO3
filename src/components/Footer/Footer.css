@@ -2,6 +2,7 @@
 
 footer {
     min-width: 10vh;
+    margin-top: 3rem;
     /* border: 1px solid yellow; */
 }
 
@@ -20,7 +21,7 @@ footer {
     position: absolute;
     bottom: 0;
     left: 0;
-    
+    border-radius: 5px;
     /* border: 3px solid wheat; */
 }
 
@@ -60,6 +61,7 @@ button {
     top: calc(100% - 351px);
     
     right: 0;
+    border-radius: 5px;
 }
 
 .rrss a {
@@ -109,7 +111,7 @@ span {
     display: none;
 }
 
-@media screen and (max-width: 320px) { 
+@media screen and (max-width: 590px) { 
 
     .contacts, .rrss {
         display: none;
