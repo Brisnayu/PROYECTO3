@@ -19,9 +19,9 @@ export const Header = () => {
 
             <nav class="navbar">
                     <ul class="nav-list">
-                        <li><a class="dark-mode" href="#">Inicio</a></li>
-                        <li><a class="dark-mode" href="#">Tecnologías</a></li>
-                        <li><a class="dark-mode" href="#">Proyectos</a></li>
+                        <li><a class="dark-mode" href="#">Home</a></li>
+                        <li><a class="dark-mode" href="#">About me</a></li>
+                        <li><a class="dark-mode" href="#">Projects</a></li>
                     </ul>
             </nav>
 

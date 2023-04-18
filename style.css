@@ -25,12 +25,12 @@ body {
   background-color: var(--color-secundary);
   color: var(--color-primary);
   padding: 0.5rem 2rem;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.8s ease-in-out;
   position: relative;
 }
 
 main {
-  min-height: calc((96vh - 10vh - 8vh) - 1rem);
+  min-height: calc((100vh - 10vh - 8vh) - 1rem);
   display: flex;
   align-items: center;
   /* border: 1px solid green; */
@@ -54,6 +54,23 @@ h2 {
   font-size: 1.5rem;
   font-weight: 100;
   margin: 1rem 0;
+}
+
+h3 {
+  /* background-color: green; */
+  animation: side 1.5s ease-in;
+  width: fit-content;
+}
+
+@keyframes side {
+  0% {
+    transform: translateY(-60px) rotateX(0.7turn);
+    opacity: 0;
+  }
+  50% {
+    transform: none;
+    opacity: 1;
+  }
 }
 
 p {

@@ -1,5 +1,6 @@
-const gradientPink = "invert(100%) sepia(15%) saturate(1135%) hue-rotate(158deg) brightness(103%) contrast(95%)";
+const gradientPink = "invert(99%) sepia(19%) saturate(3512%) hue-rotate(299deg) brightness(98%) contrast(85%)";
 const gradientBlue = "invert(27%) sepia(83%) saturate(265%) hue-rotate(164deg) brightness(95%) contrast(97%)";
+const gradientLight = "invert(100%) sepia(78%) saturate(131%) hue-rotate(92deg) brightness(105%) contrast(95%)";
 
 export const changeTheme = () => {
     const themeBtn = document.querySelector("#themeBtn");
@@ -12,7 +13,6 @@ export const changeTheme = () => {
     const colorMovil = document.querySelectorAll(".rrss-movil img");
 
     // console.log(gradient)
-console.log(colorMovil)
 
     themeBtn.addEventListener("click", () => {
         document.body.classList.toggle("light");
@@ -46,8 +46,8 @@ console.log(colorMovil)
 
         // Cambio de color iconos del footer
         changeIconsFooter.forEach(element => {
-            if(element.style.filter !== gradientPink) {
-                element.style.filter = gradientPink;
+            if(element.style.filter !== gradientLight) {
+                element.style.filter = gradientLight;
             } else {
                 element.style.filter = gradientBlue;
             }
@@ -86,46 +86,3 @@ console.log(colorMovil)
     });
 };
 
-// export const changeTheme = () => {
-//     const themeBtn = document.querySelector("#themeBtn");
-//     const elementLista = document.querySelectorAll(".lista");
-//     const contacts = document.querySelector(".contacts");
-//     const iconsCambi = document.querySelectorAll(".icon-footer");
-//     const todosh3 = document.querySelectorAll("h3");
-
-//     const prueba2 = document.querySelectorAll("li > a");
-
-//     console.log('aquí están los li', prueba2)
-
-//     themeBtn.addEventListener("click", () => {
-//         document.body.classList.toggle("light");
-        
-//         elementLista.forEach(element => {
-//             element.classList.toggle("light");
-//         })
-        
-//         todosh3.forEach(element => {
-//             element.style.color = "var(--color-primary)";
-
-//         })
-
-//         contacts.classList.toggle("invertir");
-
-//         iconsCambi.forEach(element => {
-//             if(element.style.filter !== "invert(78%) sepia(7%) saturate(1569%) hue-rotate(336deg) brightness(108%) contrast(82%)") {
-//                 element.style.filter = "invert(78%) sepia(7%) saturate(1569%) hue-rotate(336deg) brightness(108%) contrast(82%)";
-//             } else {
-//                 element.style.filter = "invert(27%) sepia(83%) saturate(265%) hue-rotate(164deg) brightness(95%) contrast(97%)";
-//             }
-//         })
-        
-
-//         console.log(iconsCambi);
-
-        
-
-//     //   changeThemeText();
-//       console.log('estoy haciendo click')
-//       console.log(elementLista)
-//     });
-// };

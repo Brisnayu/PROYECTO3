@@ -1,9 +1,7 @@
-@import "../../../style.css";
-
 footer {
     min-width: 10vh;
     margin-top: 3rem;
-    /* border: 1px solid yellow; */
+
 }
 
 .contacts {
@@ -28,6 +26,7 @@ footer {
 .contacts img, .icon-footer {
     width: 50px;
     filter: invert(27%) sepia(83%) saturate(265%) hue-rotate(164deg) brightness(95%) contrast(97%);
+    transition: transform 0.3s;
 }
 
 button {
@@ -42,7 +41,6 @@ button {
     flex-direction: column;
     text-align: center;
     justify-content: end;
-    
 }
 
 .rrss {
@@ -67,7 +65,15 @@ button {
 .rrss a {
     display: none;
     cursor: pointer;
+    /* border: 1px solid red; */
+    animation: side 1.5s ease-in;
+    width: fit-content;
 }
+
+#rrssBtn > img {
+    transition: transform 0.3s;
+}
+
 
 .location, .email {
     display: flex;
@@ -80,7 +86,6 @@ button {
     margin-bottom: 2rem;
     color: var(--color-secundary);
     display: none;
-    
 }
 
 #text-email {
@@ -111,6 +116,14 @@ span {
     display: none;
 }
 
+.contacts img:hover, 
+.icon-footer:hover,
+#rrssBtn > img:hover {
+    transform: scale(1.1);
+}
+
+
+
 @media screen and (max-width: 590px) { 
 
     .contacts, .rrss {
@@ -120,6 +133,11 @@ span {
     .rrss-movil img {
         width: 40px;
         filter: invert(78%) sepia(7%) saturate(1569%) hue-rotate(336deg) brightness(108%) contrast(82%);
+        transition: transform 0.3s;
+    }
+
+    .rrss-movil img:hover {
+        transform: scale(1.1);
     }
 
     .rrss-movil {
