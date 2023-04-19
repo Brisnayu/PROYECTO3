@@ -1,9 +1,9 @@
 import "./Card-personal.css";
 
-export const cardPersonal = (icon, desc) => {
+export const cardPersonal = (photo, alt, desc) => {
     return `
     <div class="card-personal">
-        <img src="${icon}" alt="${desc}" />
+        <img src=${photo} alt=${alt} />
         <p>${desc}</p>
     </div>
     `;

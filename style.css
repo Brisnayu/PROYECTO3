@@ -11,6 +11,8 @@
 
 
 
+
+
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +21,23 @@
   color: inherit;
   font-family: 'Prata', serif;
   list-style: none;
+
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-secundary) var(--color-primary);
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--color-primary);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--color-secundary);
+  border-radius: 20px;
+  border: 3px solid var(--color-primary);
 }
 
 body {
@@ -75,6 +94,7 @@ h3 {
 
 p {
   font-size: 1.1rem;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 720px) { 

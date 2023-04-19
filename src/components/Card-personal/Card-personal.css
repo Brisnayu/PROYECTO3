@@ -1,0 +1,48 @@
+.card-personal {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;*/
+
+    gap: 2rem;
+    /* border: 1px solid red;  */
+    padding: 1rem 2rem;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+    /* height: 80%; */
+    margin-top: 2rem;
+    
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+
+    transition: transform 0.3s;
+}
+
+.card-personal:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+div > img {
+    width: 25rem;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    /* border: 1px solid yellow; */
+}
+
+.card-personal > p {
+    /* border: 1px solid white; */
+    width: 40rem;
+    height: 100%;
+}
+
+.card-personal:hover{
+    transform: scale(1.05);
+}

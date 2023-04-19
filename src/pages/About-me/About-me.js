@@ -9,9 +9,8 @@ export const AboutMe = () => {
     main.innerHTML = `
     <section>
         <h2>About Me</h2>
-        <h3>Conóceme</h3>
-        <article>
-            ${infoPersonal.map((el) => cardPersonal(el.icon, el.desc)).join("")}
+        <article class="main-personal">
+            ${infoPersonal.map((el) => cardPersonal(el.photo, el.alt, el.desc)).join("")}
         </article>
     </section>
     `

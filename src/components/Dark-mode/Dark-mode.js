@@ -12,10 +12,21 @@ export const changeTheme = () => {
     const colorMenu = document.querySelector(".menu");
     const colorMovil = document.querySelectorAll(".rrss-movil img");
 
+    const changeLogoDarkMode = document.getElementById("logo-moon-sun");
+
     // console.log(gradient)
 
     themeBtn.addEventListener("click", () => {
         document.body.classList.toggle("light");
+        
+        if (document.body.classList.value === "light") {
+            changeLogoDarkMode.src = "./public/icons/light-mode.png"
+            // console.log("estoy aquí")
+        } else {
+            changeLogoDarkMode.src = "./public/icons/dark-mode.png"
+            // console.log("ahora estoy aquí")
+        }
+        
         
         // Cambiando el color de los textos
         changeThemeText.forEach(element => {
@@ -81,7 +92,7 @@ export const changeTheme = () => {
         
 
     //   changeThemeText();
-      console.log('estoy haciendo click')
+    //   console.log('estoy haciendo click')
 
     });
 };

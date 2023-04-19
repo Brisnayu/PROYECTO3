@@ -1,0 +1,25 @@
+.main-personal {
+    /* border: 1px solid green; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4rem;
+    padding: 0 6rem 2rem 6rem;
+    gap: 1rem;
+    
+
+    display: block;
+    width: 87vw;
+    height: 70vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+   
+    background-color:#5e669343;
+    border-radius: 5px;
+}
+
+
+
+
