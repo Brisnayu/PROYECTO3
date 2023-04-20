@@ -79,6 +79,12 @@ label, input[type="checkbox"] {
     display: none;
 }
 
+@media screen and (max-width: 375px) {
+   .image-header {
+        align-items: flex-start;
+    }
+}
+
 @media screen and (max-width: 740px) {
 
     .article-header {
@@ -133,8 +139,3 @@ label, input[type="checkbox"] {
     
   }
 
-@media screen and (max-width: 375px) {
-   .image-header {
-        align-items: flex-start;
-    }
-}

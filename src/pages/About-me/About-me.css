@@ -5,13 +5,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 4rem;
+    /* margin: 0 4rem; */
     padding: 0 6rem 2rem 6rem;
     gap: 1rem;
     
 
     display: block;
-    width: 87vw;
+    width: 100%;
     height: 70vh;
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -20,6 +20,11 @@
     border-radius: 5px;
 }
 
+@media screen and (max-width: 590px) { 
+    .main-personal {
+        padding: 20px 10px;
+    }
+}
 
 
 

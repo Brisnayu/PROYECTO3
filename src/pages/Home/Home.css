@@ -8,6 +8,8 @@
     height: 30rem;
     width: 100%;
     /* border: 2px solid yellow; */
+    transition: transform 0.3s;
+    animation: slide-in 1.5s ease-out;
   }
 
 .image {
@@ -23,7 +25,26 @@
     text-align: center;
 }
 
+@media screen and (max-width: 590px) {
 
+  .home {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    height: 100%;
+    gap: 1.8rem;
+  }
+
+  .descrip {
+    width: 100%;
+  }
+  
+  .image{
+    width: 100%;
+  }
+  
+}
 
 
 @media screen and (max-width: 720px) { 
@@ -58,23 +79,3 @@
   }
 }
 
-@media screen and (max-width: 590px) {
-
-  .home {
-    /* border: 1px solid red; */
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    height: 100%;
-    gap: 1.8rem;
-  }
-
-  .descrip {
-    width: 100%;
-  }
-  
-  .image{
-    width: 100%;
-  }
-  
-}

@@ -1,0 +1,5 @@
+.card-gallery {
+    /* border: 1px solid yellow; */
+    gap: 1rem;
+    animation: slide-on 1.5s ease-out;
+}

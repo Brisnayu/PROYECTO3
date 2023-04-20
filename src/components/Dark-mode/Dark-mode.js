@@ -86,14 +86,6 @@ export const changeTheme = () => {
                 element.style.filter = gradientPink;
             }
          });
-
-         
-
-        
-
-    //   changeThemeText();
-    //   console.log('estoy haciendo click')
-
     });
 };
 

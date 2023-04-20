@@ -23,6 +23,7 @@
     box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
 
     transition: transform 0.3s;
+    animation: slide-in 1.5s ease-out;
 }
 
 .card-personal:nth-child(even) {
@@ -45,4 +46,11 @@ div > img {
 
 .card-personal:hover{
     transform: scale(1.05);
+}
+
+@media screen and (max-width: 740px) { 
+    div > img {
+        width: 200px;
+        height: 200px;
+    }
 }

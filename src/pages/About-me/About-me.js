@@ -1,14 +1,14 @@
 import "./About-me.css";
 
 import { infoPersonal } from "../../utils/personal-information";
-import { cardPersonal } from "../../../src/components/Card-personal/Card-personal"
+import { cardPersonal } from "../../../src/components/Card-personal/Card-personal";
 
 export const AboutMe = () => {
     const main = document.querySelector("main");
 
     main.innerHTML = `
-    <section>
-        <h2>About Me</h2>
+    <section class="container">
+        <h4>Conoce un poco sobre mí</h4>
         <article class="main-personal">
             ${infoPersonal.map((el) => cardPersonal(el.photo, el.alt, el.desc)).join("")}
         </article>

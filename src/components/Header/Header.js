@@ -6,7 +6,7 @@ export const Header = () => {
     <article class="article-header">
 
         
-        <img class="logo" src="./public/icons/logo_hera.png" alt="logo-hera" />
+        <img class="logo" id="logolink" src="./public/icons/logo_hera.png" alt="logo-hera" />
         <button id="themeBtn"><img src="./public/icons/dark-mode.png" alt="logo-hera" id="logo-moon-sun"/></button>
     
         
@@ -20,8 +20,8 @@ export const Header = () => {
             <nav class="navbar">
                     <ul class="nav-list">
                         <li><a class="dark-mode" href="#" id="homelink">Home</a></li>
-                        <li><a class="dark-mode" href="#" id="about-me">About me</a></li>
-                        <li><a class="dark-mode" href="#">Projects</a></li>
+                        <li><a class="dark-mode" href="#" id="aboutmelink">About me</a></li>
+                        <li><a class="dark-mode" href="#" id="projectlink">Projects</a></li>
                     </ul>
             </nav>
 
