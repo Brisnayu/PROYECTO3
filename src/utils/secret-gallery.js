@@ -22,7 +22,7 @@ export const secretGallery = [
     {
         id: 5,
         img: "./public/secret-gallery/img5.jpg",
-        date: "Febrero 2022",
+        date: "Abril 2022",
     },
     {
         id: 6,

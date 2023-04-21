@@ -96,6 +96,17 @@ h4 {
   margin-bottom: 1rem;
 }
 
+h5 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+h6 {
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 1.5rem;
+}
+
 @keyframes side {
   0% {
     transform: translateY(-60px) rotateX(0.7turn);
