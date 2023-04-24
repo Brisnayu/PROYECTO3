@@ -54,21 +54,13 @@ export const showContent = () => {
     emailBtn.addEventListener("click", () => {
         console.log('CORREO ELECTRÓNICO')
 
-        if (textEmail.style.display !== "block") {
-            textEmail.style.display = "block"; 
-        } else {
-            textEmail.style.display = "none";
-        }
+        textEmail.classList.toggle("mostrar");
     });
 
      locationBtn.addEventListener("click", () => {
         console.log('UBICACIÓN')
-        if (textLocation.style.display !== "block") {
-            textLocation.style.display = "block"; 
-        } else {
-            textLocation.style.display = "none";
-        }
 
+        textLocation.classList.toggle("mostrar");
      });
 
      rrssBtn.addEventListener("click", () => {

@@ -13,7 +13,7 @@ export const Project = () => {
         <h4>Proyectos</h4>
         <article class="container-project">
         ${projectsData.map((el) => 
-            cardProject(el.img, el.title, el.goal, el.description, el.tech[i++], el.link, el.github)).join("")
+            cardProject(el.img, el.title, el.goal, el.description, el.tech, el.link, el.github)).join("")
         }
         </article>
     </section>

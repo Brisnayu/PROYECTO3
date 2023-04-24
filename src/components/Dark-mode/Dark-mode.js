@@ -14,7 +14,7 @@ export const changeTheme = () => {
 
     const changeLogoDarkMode = document.getElementById("logo-moon-sun");
 
-    // console.log(gradient)
+    // console.log(changeColorLinkIcon)
 
     themeBtn.addEventListener("click", () => {
         document.body.classList.toggle("light");
@@ -85,7 +85,8 @@ export const changeTheme = () => {
             } else {
                 element.style.filter = gradientPink;
             }
-         });
+        });
+
     });
 };
 

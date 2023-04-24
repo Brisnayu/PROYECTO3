@@ -19,7 +19,9 @@ export const cardProject = (img, title, goal, description, tech, link, github) =
                 View code</a>
 
                 <div class="container-tech">
-                    <img class="icon-tech" src=${tech} alt="icon-tech" />
+                    ${tech.map((el) => 
+                        (`<img class="icon-tech" src=${el} alt="icon-tech" />`)).join(" ")
+                    }
                 </div>
 
         </div>
@@ -28,9 +30,12 @@ export const cardProject = (img, title, goal, description, tech, link, github) =
             <h5>${title}</h5>
             <h6>${goal}</h6>
             <hr>
+            <button class="info-project">Leer información</button>
             <p>${description}</p>
+            
         </div>
 
     </div>
     `;
 }
+

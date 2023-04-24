@@ -20,9 +20,19 @@
     border-radius: 5px;
 }
 
+@media screen and (max-width: 740px) {
+    .main-personal {
+        padding: 0 2rem 2rem 2rem;
+    }
+}
+
 @media screen and (max-width: 590px) { 
     .main-personal {
         padding: 20px 10px;
+        width: 100%;
+        height: 100%;
+        overflow-y: hidden;
+        background-color: transparent;
     }
 }
 

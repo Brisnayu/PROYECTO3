@@ -19,6 +19,7 @@
     animation: slide-on 1.5s ease-out;
     font-weight: 100;
     margin-top: 1rem;
+    text-align: center;
 }
 
 .img-gallery {
@@ -48,8 +49,12 @@
 @media screen and (max-width: 590px) { 
     
     .gallery {
+        width: 85%;
+        height: 100%;
         display: flex;
         flex-direction: column;
+        text-align: center;
+        overflow-y: hidden;
     }
     
 }
