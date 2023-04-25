@@ -6,13 +6,13 @@ export const Header = () => {
     <article class="article-header">
 
         
-        <img class="logo" id="logolink" src="./public/icons/logo_hera.png" alt="logo-hera" />
-        <button id="themeBtn"><img src="./public/icons/dark-mode.png" alt="logo-hera" id="logo-moon-sun"/></button>
+        <img class="logo" id="logolink" src="/icons/logo_hera.png" alt="logo-hera" />
+        <button id="themeBtn"><img src="/icons/dark-mode.png" alt="logo-dark-mode" id="logo-moon-sun"/></button>
     
         
         <section class="header-navbar">
             <label class="nav-label" for="hamburger">
-                <img class="menu" src="./public/icons/menu-hamburguer.png" alt="icon-hamburguer" />
+                <img class="menu" src="/icons/menu-hamburguer.png" alt="icon-hamburguer" />
             </label>
             
             <input class="nav-input" type="checkbox" id="hamburger" />
@@ -32,23 +32,3 @@ export const Header = () => {
 
     `;
 };
-
-
-  
-// const changeThemeText = () => {
-//     const themeBtn = document.querySelector("#themeBtn");
-//     if (themeBtn.innerText === "☀️") {
-//       themeBtn.innerText = "🌑";
-//     } else {
-//       themeBtn.innerText = "☀️";
-//     };
-// };
-
-
-
-    // <img src="./public/icons/instagram-light.png" alt="logo-hera" />
-    // <img src="./public/icons/instagram-dark.png" alt="logo-hera" />
-    // <img src="./public/icons/github-light.png" alt="logo-hera" />
-    // <img src="./public/icons/github-dark.png" alt="logo-hera" />
-    // <img src="./public/icons/linkedin-light.png" alt="logo-hera" />
-    // <img src="./public/icons/linkedin-dark.png" alt="logo-hera" />

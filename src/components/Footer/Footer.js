@@ -7,31 +7,31 @@ export const Lateral = () => {
         <div class="location"> 
         
             <h3 id="text-location">Barcelona, España</h3>
-            <button id="locationBtn"><img class="icon-footer" src="./public/icons/location.png" alt="icon-location" /></button>
+            <button id="locationBtn"><img class="icon-footer" src="/icons/location.png" alt="icon-location" /></button>
        
         </div>
 
         <div class="email">
 
             <h3 id="text-email">brisnapaez25@gmail.com</h3>
-            <button id="emailBtn"><img class="icon-footer" src="./public/icons/email.png" alt="icon-email" /></button>
+            <button id="emailBtn"><img class="icon-footer" src="/icons/email.png" alt="icon-email" /></button>
         
         </div>
 
     </section> 
 
     <section class="rrss background-change">
-        <button id="rrssBtn"><img src="./public/icons/rrss.png" alt="icon-rrss" /></button>
-        <a href="https://github.com/Brisnayu" target="_blank" class="icon-rrss" ><img class="icon-footer" src="./public/icons/github.png" alt="icon-github" /></a>
-        <a href="https://www.linkedin.com/in/brisna-a-paez-m-283934154" target="_blank" class="icon-rrss"><img class="icon-footer" src="./public/icons/linkedin.png" alt="icon-linkedin" /></a>
-        <a href="https://www.instagram.com/mini_hera_/" target="_blank" class="icon-rrss"><img class="icon-footer" src="./public/icons/instagram.png" alt="icon-instagram" /></a>
+        <button id="rrssBtn"><img src="/icons/rrss.png" alt="icon-rrss" /></button>
+        <a href="https://github.com/Brisnayu" target="_blank" class="icon-rrss" ><img class="icon-footer" src="/icons/github.png" alt="icon-github" /></a>
+        <a href="https://www.linkedin.com/in/brisna-a-paez-m-283934154" target="_blank" class="icon-rrss"><img class="icon-footer" src="/icons/linkedin.png" alt="icon-linkedin" /></a>
+        <a href="https://www.instagram.com/mini_hera_/" target="_blank" class="icon-rrss"><img class="icon-footer" src="/icons/instagram.png" alt="icon-instagram" /></a>
     </section>
 
     <section class="rrss-movil">
-        <a href="https://github.com/Brisnayu" target="_blank"><img src="./public/icons/github-movil.png" alt="icon-github" /></a>
-        <a href="https://www.linkedin.com/in/brisna-a-paez-m-283934154" target="_blank"><img src="./public/icons/linkedin-movil.png" alt="icon-linkedin" /></a>
-        <a href="https://www.instagram.com/mini_hera_/" target="_blank"><img src="./public/icons/instagram-movil.png" alt="icon-instagram" /></a>
-        <a href="https://www.instagram.com/mini_hera_/" target="_blank"><img src="./public/icons/email-movil.png" alt="icon-instagram" /></a>
+        <a href="https://github.com/Brisnayu" target="_blank"><img src="/icons/github-movil.png" alt="icon-github" /></a>
+        <a href="https://www.linkedin.com/in/brisna-a-paez-m-283934154" target="_blank"><img src="/icons/linkedin-movil.png" alt="icon-linkedin" /></a>
+        <a href="https://www.instagram.com/mini_hera_/" target="_blank"><img src="/icons/instagram-movil.png" alt="icon-instagram" /></a>
+        <a href="https://www.instagram.com/mini_hera_/" target="_blank"><img src="/icons/email-movil.png" alt="icon-instagram" /></a>
     </section>
 
     <section class="reserved"> 

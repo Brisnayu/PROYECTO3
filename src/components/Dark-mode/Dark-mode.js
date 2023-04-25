@@ -20,10 +20,10 @@ export const changeTheme = () => {
         document.body.classList.toggle("light");
         
         if (document.body.classList.value === "light") {
-            changeLogoDarkMode.src = "./public/icons/light-mode.png"
+            changeLogoDarkMode.src = "/icons/light-mode.png"
             // console.log("estoy aquí")
         } else {
-            changeLogoDarkMode.src = "./public/icons/dark-mode.png"
+            changeLogoDarkMode.src = "/icons/dark-mode.png"
             // console.log("ahora estoy aquí")
         }
         
