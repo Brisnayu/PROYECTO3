@@ -6,7 +6,6 @@ footer {
 
 .contacts {
     background-color: var(--color-primary);
-    /* margin-top: -20px; */
     width: 5rem;
     height: 35rem;
     display: flex;
@@ -20,7 +19,6 @@ footer {
     bottom: 0;
     left: 0;
     border-radius: 0 5px 0 0;
-    /* border: 3px solid wheat; */
 }
 
 .contacts img, .icon-footer {
@@ -36,7 +34,6 @@ button {
 }
 
 .reserved {
-    /* border: 1px solid yellow; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -45,28 +42,30 @@ button {
 
 .rrss {
     background-color: var(--color-primary);
-    /* margin-top: -20px; */
     width: 5rem;
     height: inherit;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
     padding: 1rem 0;
     position: sticky;
     position: absolute;
     top: calc(100% - 400px);
-    
+    padding-bottom: -20rem;
     right: 0;
     border-radius: 5px 0 0 5px;
-    
 }
 
 .rrss a {
-    display: none;
     cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
 
+.show-rrss a {
+    opacity: 1;
     animation: side 1.5s ease-in;
     width: fit-content;
 }
@@ -90,9 +89,6 @@ button {
     rotate: 270deg;
     margin-bottom: 2rem;
     color: var(--color-secundary);
-    /* display: none;
-    animation: side 1.5s ease-in;
-    width: fit-content;  */
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
     
@@ -109,7 +105,6 @@ button {
     margin-bottom: 7rem;
     margin-top: 6rem;
     color: var(--color-secundary);
-    /* display: none; */
     margin-top: -9rem;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
@@ -121,10 +116,6 @@ button {
     animation: side 1.5s ease-in;
     width: fit-content;
 }
-/* .show {
-    display: block;
-} */
-
 
 span {
     background: rgb(252,69,69);
@@ -146,8 +137,6 @@ span {
 #rrssBtn > img:hover {
     transform: scale(1.1);
 }
-
-
 
 @media screen and (max-width: 590px) { 
 

@@ -4,20 +4,20 @@
 }
 
 /* Barra para el scroll */
-.light * {
+.light, .light * {
 scrollbar-width: thin;
 scrollbar-color: var(--color-light) var(--color-secundary);
 }
 
-.light *::-webkit-scrollbar {
+.light::-webkit-scrollbar, .light *::-webkit-scrollbar {
 width: 12px;
 }
 
-.light *::-webkit-scrollbar-track {
+.light::-webkit-scrollbar-track, .light *::-webkit-scrollbar-track {
 background: var(--color-secundary);
 }
 
-.light *::-webkit-scrollbar-thumb {
+.light::-webkit-scrollbar-thumb, .light *::-webkit-scrollbar-thumb {
 background-color: var(--color-light);
 border-radius: 20px;
 border: 3px solid var(--color-secundary);

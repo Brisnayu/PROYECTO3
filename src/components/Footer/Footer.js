@@ -44,34 +44,23 @@ export const Lateral = () => {
 export const showContent = () => {
     const emailBtn = document.querySelector("#emailBtn");
     const locationBtn = document.querySelector("#locationBtn");
+
     const textEmail = document.querySelector("#text-email");
     const textLocation = document.querySelector("#text-location");
 
+    const rrssList = document.querySelector(".rrss");
     const rrssBtn = document.querySelector("#rrssBtn");
-    const iconrrss = document.querySelectorAll(".icon-rrss");
-
 
     emailBtn.addEventListener("click", () => {
-        console.log('CORREO ELECTRÓNICO')
-
         textEmail.classList.toggle("mostrar");
     });
 
      locationBtn.addEventListener("click", () => {
-        console.log('UBICACIÓN')
-
         textLocation.classList.toggle("mostrar");
      });
 
      rrssBtn.addEventListener("click", () => {
-        console.log('RRSS')
-
-        iconrrss.forEach(icon => { 
-            if (icon.style.display!== "block") {
-                icon.style.display = "block";
-            } else {
-                icon.style.display = "none";
-        }});
+        rrssList.classList.toggle("show-rrss");
      });
 };
 
