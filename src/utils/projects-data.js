@@ -14,6 +14,20 @@ export const projectsData = [
         github: "https://github.com/Brisnayu/PROYECTO1",
     },
     {
+        img: "/projects-img/img-proyecto-aracari.png",
+        title: "Proyecto Aracari",
+        goal: "Landing page",
+        description: `Este proyecto lo hice de manera personal, mi objetivo era mejorar una página ya existente, 
+        de una manera sencilla implementando los conocimientos aprendidos de maquetación y css. En esta landing page, se verán
+        diferentes criterios en cuanto a estilos.`,
+        tech: [
+            "/icons/html.png", 
+            "/icons/css-3.png"
+        ],
+        link: "https://proyecto-aracari.netlify.app/",
+        github: "https://github.com/Brisnayu/Creation-of-aracar-project",
+    },
+    {
         img: "/projects-img/img-proyecto1.1.png",
         title: "Proyecto 1.1",
         goal: "Landing page",
@@ -30,7 +44,7 @@ export const projectsData = [
     {
         img: "/projects-img/img-proyecto-pantone.png",
         title: "Proyecto Pantone",
-        goal: "Landing page",
+        goal: "Manejo conocimientos JS",
         description: `Para este proyecto, comencé a implementar conocimientos de JavaScript. Pude comenzar a prácticar algunos tipos de eventos,
         pudiendo implementar los cambios directamente en el HTML.`,
         tech: [
@@ -40,6 +54,22 @@ export const projectsData = [
         ],
         link: "https://proyecto-pantone.netlify.app/",
         github: "https://github.com/Brisnayu/PROYECTO-COLORES-PANTONE",
+    },
+    {
+        img: "/projects-img/img-proyecto-pokeapi.png",
+        title: "Proyecto PokeApi",
+        goal: "Información API REST",
+        description: `Primer proyecto implementando conocimientos de JavaScript para buscar información de una API REST. 
+        En este caso, se hizo diferentes solicitudes a la Pokéapi, logrando extraer esa información por medio de dos filtros,
+        el primero buscando el Pokemón según su nombre y el segundo según su ID. Se implementaron diferentes condiciones, como 
+        por ejemplo, que no puedas buscar simultáneamente y que muestre un error si el nombre no corresponde a un Pokemón.`,
+        tech: [
+            "/icons/html.png", 
+            "/icons/css-3.png",
+            "/icons/javascript.png", 
+        ],
+        link: "https://perfect-match-pokemon.netlify.app",
+        github: "https://github.com/Brisnayu/PRIMERA-POKEAPI",
     },
     {
         img: "/projects-img/img-proyecto2.png",

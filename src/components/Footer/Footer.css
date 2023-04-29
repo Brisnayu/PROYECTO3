@@ -1,7 +1,7 @@
 footer {
     min-width: 10vh;
     margin-top: 4rem;
-
+    /* border: 2px solid red; */
 }
 
 .contacts {
@@ -34,10 +34,17 @@ button {
 }
 
 .reserved {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: end;
+    justify-content: end;*/
+    position: absolute; 
+    bottom: 0;
+    right: 5px;
+}
+
+.reserved > p {
+    font-size: 0.9rem;
 }
 
 .rrss {
@@ -49,13 +56,11 @@ button {
     justify-content: flex-end;
     align-items: center;
     gap: 1.5rem;
-    padding: 1rem 0;
-    position: sticky;
     position: absolute;
     top: calc(100% - 400px);
-    padding-bottom: -20rem;
     right: 0;
     border-radius: 5px 0 0 5px;
+    padding-bottom: 1rem;
 }
 
 .rrss a {
@@ -72,6 +77,7 @@ button {
 
 #rrssBtn > img {
     transition: transform 0.3s;
+    margin: 1rem 0;
 }
 
 
@@ -138,7 +144,7 @@ span {
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 590px) { 
+@media screen and (max-width: 740px) { 
 
     .contacts, .rrss {
         display: none;
@@ -158,7 +164,7 @@ span {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 1rem 0;
+        margin-bottom: 2rem;
     }
 
 }
