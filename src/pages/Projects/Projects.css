@@ -1,24 +1,16 @@
 .container-project {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    /* border: 1px solid mediumaquamarine; */
-
-
-    padding: 0 6rem;
-    gap: 4rem;
-    
-
-    display: block;
-    width: 100%;
-    height: 70vh;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-   
-    background-color:#5e669343;
+    background-color: var(--color-pages);
     border-radius: 5px;
-
+    display: block;
+    flex-direction: column;
+    gap: 4rem;
+    height: 70vh;
+    justify-content: center;
+    overflow-y: scroll;
+    padding: 0 6rem;
+    scroll-behavior: smooth;
+    width: 100%;
 }
 
 
@@ -31,11 +23,11 @@
 
 @media screen and (max-width: 740px) { 
     .container-project {
+        background-color: transparent;
+        height: 100%;
         margin-top: -4rem;
+        overflow-y: hidden;
         padding: 20px 10px;
         width: 100%;
-        height: 100%;
-        overflow-y: hidden;
-        background-color: transparent;
     }
 }

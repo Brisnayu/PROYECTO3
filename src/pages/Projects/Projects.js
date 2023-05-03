@@ -3,8 +3,6 @@ import "./Projects.css";
 import { projectsData } from "../../utils/projects-data";
 import { cardProject } from "../../components/Card-projects/Card-projects";
 
-let i = 0;
-
 export const Project = () => {
     const main = document.querySelector("main");
 
@@ -18,6 +16,4 @@ export const Project = () => {
         </article>
     </section>
     `
-}
-
-// ${infoPersonal.map((el) => cardPersonal(el.photo, el.alt, el.desc)).join("")}
+};

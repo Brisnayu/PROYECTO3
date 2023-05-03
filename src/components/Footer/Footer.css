@@ -1,20 +1,18 @@
 footer {
     min-width: 10vh;
     margin-top: 4rem;
-    /* border: 2px solid red; */
 }
 
 .contacts {
     background-color: var(--color-primary);
     width: 5rem;
-    height: 35rem;
+    height: 30.5rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    gap: 2rem;
-    padding-bottom: 1rem;
-
+    gap: 1.5rem;
+    padding-bottom: 0.5rem;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -34,10 +32,6 @@ button {
 }
 
 .reserved {
-    /* display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: end;*/
     position: absolute; 
     bottom: 0;
     right: 5px;
@@ -94,10 +88,8 @@ button {
 #text-location {
     rotate: 270deg;
     margin-bottom: 2rem;
-    color: var(--color-secundary);
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
-    
 }
 
 #text-location.mostrar {
@@ -110,7 +102,6 @@ button {
     rotate: 270deg;
     margin-bottom: 7rem;
     margin-top: 6rem;
-    color: var(--color-secundary);
     margin-top: -9rem;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
@@ -146,6 +137,10 @@ span {
 
 @media screen and (max-width: 740px) { 
 
+    footer {
+        margin-top: 2rem;
+    }
+
     .contacts, .rrss {
         display: none;
     }
@@ -165,6 +160,13 @@ span {
         flex-direction: row;
         justify-content: space-between;
         margin-bottom: 2rem;
+    }
+
+    .reserved {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      padding-top: 1rem;
     }
 
 }

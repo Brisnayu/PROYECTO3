@@ -1,5 +1,6 @@
 /* Estilos de la imagen de portada */
 
+/* Otra forma más sencilla del avatar, en caso de que quiera quitar la animación */
 /* .avatar {
     width: 80%;
     height: 100%;
@@ -45,8 +46,8 @@
   .avatar::before,
   .avatar::after {
     animation: pulse 2s linear infinite;
-    border: var(--color-contrast) solid 8px;
     border-radius: 100%;
+    border: var(--color-contrast) solid 8px;
     box-sizing: border-box;
     content: ' ';
     height: 140%;
@@ -65,7 +66,7 @@
   
   .avatar:hover::before,
   .avatar:hover::after {
-    animation: pulse 1s linear infinite, cycle-colors 6s linear infinite;
+    animation: pulse 1s linear infinite;
   }
   
   .avatar:hover::after {
@@ -77,9 +78,6 @@
         border-radius: 150px;
         width: 300px;
         height: 300px;
-        /* background: aqua; */
-        /* padding: 0.3rem; */
-        /* margin-left: 50px; */
     }
 }
 

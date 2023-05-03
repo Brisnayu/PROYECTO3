@@ -1,6 +1,6 @@
 import "./Footer.css";
 
-export const Lateral = () => {
+export const Footer = () => {
     return `
     <section class="contacts background-change">   
 

@@ -1,49 +1,48 @@
 .article-header {
-    min-height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
     align-items: center;
+    display: flex;
     flex-wrap: wrap;
-    /* border: 1px solid red; */
+    height: 100%;
+    justify-content: space-between;
+    min-height: 10vh;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     gap: 4rem;
+    justify-content: center;
 }
 
 
 li > a {
-    font-size: 1.4rem;
-    display: inline-block;
-    position: relative;
-    color: var(--color-primary);
-    text-decoration: none;
     animation: side 1.5s ease-in;
+    color: var(--color-primary);
+    display: inline-block;
+    font-size: 1.4rem;
+    position: relative;
+    text-decoration: none;
     width: fit-content;
 }
 li > a:after {
     content: "";
     display: block;
-    margin: auto;
     height: 2px;
-    width: 0px;
+    margin: auto;
     transition: all .8s;
+    width: 0px;
 }
 li > a:hover:after {
-    width: 100%;
     background: var(--color-contrast);
+    width: 100%;
 }
 
 .header-navbar {
-    width: 100%;
+    align-items: flex-end;
+    display: flex;
     margin-left: 5rem;
     margin-top: -4rem;
-    display: flex;
-    align-items: flex-end;
+    width: 100%;
 }
   
 header nav > ul {
@@ -52,10 +51,10 @@ header nav > ul {
 }
   
 header .logo {
-    width: 60px;
-    padding-top: 6px;
     cursor: pointer;
+    padding-top: 6px;
     transition: transform .3s;
+    width: 60px;
 }
 
 .logo:hover {
@@ -67,12 +66,11 @@ button > img {
 }
   
 header button {
+	top: 1rem;
     background: transparent;
     border: none;
-    transform: scale(1.5);
     cursor: pointer;
-    /* position: sticky; */
-	top: 1rem;
+    transform: scale(1.5);
 }
 
 label, input[type="checkbox"] {
@@ -94,28 +92,25 @@ label, input[type="checkbox"] {
 
 
     .header-navbar {
-        /* border: 1px solid green; */
-        margin: 0;
-        width: 100%;
-        height: 100%;
-        position: relative;
+        align-items: center;
         display: flex;
         flex-direction: column;
-        align-items: center;
         gap: 1rem;
+        height: 100%;
+        margin: 0;
+        position: relative;
+        width: 100%;
     }
 
     .nav-label {
-        font-size: 2rem;
-        padding: 0.6rem;
         display: flex;
+        font-size: 2rem;
         justify-content: flex-end;
         margin-top: 1rem;
+        padding: 0.6rem;
     }
 
     .menu  {
-        /* background-color: gray; */
-        /* filter: invert(27%) sepia(83%) saturate(265%) hue-rotate(164deg) brightness(95%) contrast(97%); */
         width: 3rem;
         filter: invert(97%) sepia(3%) saturate(6637%) hue-rotate(305deg) brightness(100%) contrast(82%);
     }
@@ -129,13 +124,10 @@ label, input[type="checkbox"] {
     }
     
     .nav-list {
+        align-items: center;
         display: flex;
         flex-direction: column;
-        align-items: center;
         gap: 1rem;
-        /* border: 1px solid white; */
     }
-
-    
-  }
+}
 
