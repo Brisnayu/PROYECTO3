@@ -31,7 +31,7 @@ export const Footer = () => {
         <a href="https://github.com/Brisnayu" target="_blank"><img src="/icons/github-movil.png" alt="icon-github" /></a>
         <a href="https://www.linkedin.com/in/brisna-a-paez-m-283934154" target="_blank"><img src="/icons/linkedin-movil.png" alt="icon-linkedin" /></a>
         <a href="https://www.instagram.com/mini_hera_/" target="_blank"><img src="/icons/instagram-movil.png" alt="icon-instagram" /></a>
-        <a href="https://www.instagram.com/mini_hera_/" target="_blank"><img src="/icons/email-movil.png" alt="icon-instagram" /></a>
+        <a href="mailto:brisnapaez25@gmail.com" target="_blank"><img src="/icons/email-movil.png" alt="icon-email" /></a>
     </section>
 
     <section class="reserved"> 
