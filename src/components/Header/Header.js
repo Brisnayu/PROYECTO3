@@ -1,8 +1,7 @@
 import "./Header.css";
 
-
 export const Header = () => {
-    return `
+  return `
     <article class="article-header">
 
         
