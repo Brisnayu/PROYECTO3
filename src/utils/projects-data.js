@@ -89,6 +89,23 @@ export const projectsData = [
         github: "https://github.com/Brisnayu/PROYECTO2",
     },
     {
+        img: "/projects-img/img-proyecto3.png",
+        title: "Proyecto 3",
+        goal: "Creación portfolio",
+        description: `En este proyecto, tuve la maravillosa oportunidad de crear mi propio portfolio 
+        utilizando únicamente los conocimientos adquiridos en HTML, CSS y JavaScript. El proceso de crear 
+        rutas y, sobre todo, los componentes, fue realmente enriquecedor. Además, aproveché la ocasión para 
+        explorar y experimentar con animaciones, lo que ha dado vida y personalidad a la página. Estoy emocionada 
+        de haber logrado un portfolio que refleje mi trabajo y habilidades de una manera creativa y atractiva.`,
+        tech: [
+            "/icons/html.png", 
+            "/icons/css-3.png",
+            "/icons/javascript.png", 
+        ],
+        link: "https://portfolio-brisna-paez.netlify.app/",
+        github: "https://github.com/Brisnayu/PROYECTO3",
+    },
+    {
         img: "/projects-img/img-proyecto4.png",
         title: "Proyecto 4",
         goal: "React App NASA",
@@ -110,7 +127,7 @@ export const projectsData = [
         img: "/projects-img/img-proyecto5.png",
         title: "Proyecto 5",
         goal: "React App del tiempo",
-        description: `Estoy emocionado por compartir mi experiencia al completar este proyecto. 
+        description: `Estoy emocionada por compartir mi experiencia al completar este proyecto. 
         Trabajar con la geolocalización ha sido increíblemente fascinante, y la integración de la API 
         del tiempo en la aplicación ha sido realmente interesante. Uno de los mayores desafíos que enfrenté 
         fue realizar una refactorización del código, creando componentes independientes y aprovechando al máximo 
