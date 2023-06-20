@@ -88,4 +88,40 @@ export const projectsData = [
         link: "https://proyecto2-the-power-mba.netlify.app",
         github: "https://github.com/Brisnayu/PROYECTO2",
     },
+    {
+        img: "/projects-img/img-proyecto4.png",
+        title: "Proyecto 4",
+        goal: "React App NASA",
+        description: `Fue todo un reto realizar mi primer proyecto utilizando la librería de JavaScript React. Una 
+        de las partes más desafiantes fue trabajar con las solicitudes a la API de la NASA, especialmente aquellas relacionadas 
+        con el Mars Rover. Para abordar este desafío, utilicé la información proporcionada diariamente por la API. Además, 
+        implementé la funcionalidad de crear dinámicamente botones correspondientes a las diferentes cámaras del Mars Rover, 
+        lo que me permitió filtrar las imágenes de manera eficiente según las preferencias.`,
+        tech: [
+            "/icons/html.png", 
+            "/icons/css-3.png",
+            "/icons/javascript.png",
+            "/icons/react.png"
+        ],
+        link: "https://proyecto4-nasa-brisna-paez.netlify.app/",
+        github: "https://github.com/Brisnayu/PROYECTO4",
+    },
+    {
+        img: "/projects-img/img-proyecto5.png",
+        title: "Proyecto 5",
+        goal: "React App del tiempo",
+        description: `Estoy emocionado por compartir mi experiencia al completar este proyecto. 
+        Trabajar con la geolocalización ha sido increíblemente fascinante, y la integración de la API 
+        del tiempo en la aplicación ha sido realmente interesante. Uno de los mayores desafíos que enfrenté 
+        fue realizar una refactorización del código, creando componentes independientes y aprovechando al máximo 
+        las capacidades de la librería de JavaScript React. Me enorgullece haber logrado un código más limpio y eficiente.`,
+        tech: [
+            "/icons/html.png", 
+            "/icons/css-3.png",
+            "/icons/javascript.png",
+            "/icons/react.png"
+        ],
+        link: "https://proyecto5-brisna-paez.netlify.app/",
+        github: "https://github.com/Brisnayu/PROYECTO5",
+    },
 ];
