@@ -110,7 +110,7 @@ h6 {
   margin-bottom: 1.5rem;
 }
 
-/* @keyframes side {
+@keyframes side {
   0% {
     transform: translateY(-60px) rotateX(0.7turn);
     opacity: 0;
@@ -148,7 +148,7 @@ h6 {
   to{
     transform: translateX(0);
   }
-} */
+}
 
 p {
   font-size: 1rem;
