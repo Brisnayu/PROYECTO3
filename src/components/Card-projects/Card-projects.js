@@ -1,4 +1,5 @@
 import "./Card-projects.css";
+import { technologies } from "../../utils/projects-data";
 
 // import { tech } from "../../utils/projects-data"; 
 
@@ -20,7 +21,7 @@ export const cardProject = (img, title, goal, description, tech, link, github) =
 
                 <div class="container-tech">
                     ${tech.map((el) => 
-                        (`<img class="icon-tech" src=${el} alt="icon-tech" />`)).join(" ")
+                        (`<img class="icon-tech" src=${technologies[el]} alt="icon-tech" />`)).join(" ")
                     }
                 </div>
 

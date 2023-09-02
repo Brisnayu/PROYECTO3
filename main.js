@@ -9,7 +9,7 @@ import { Footer } from "./src/components/Footer/Footer";
 import { Gallery } from "./src/pages/Gallery/Gallery";
 import { Home } from "./src/pages/Home/Home";
 import { AboutMe } from "./src/pages/About-me/About-me";
-import { Project } from "./src/pages/Projects/Projects";
+import { Project, getProjects } from "./src/pages/Projects/Projects";
 
 // Funcionalidad
 import { changeTheme } from "./src/components/Dark-mode/Dark-mode";
@@ -25,6 +25,7 @@ Home();
 changeTheme();
 randomGallery();
 showContent();
+getProjects();
 
 // Ejecutando los links
 linkPage("#logolink", Gallery);
