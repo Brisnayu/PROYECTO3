@@ -25,7 +25,7 @@ Home();
 changeTheme();
 randomGallery();
 showContent();
-getProjects();
+await getProjects();
 
 // Ejecutando los links
 linkPage("#logolink", Gallery);
