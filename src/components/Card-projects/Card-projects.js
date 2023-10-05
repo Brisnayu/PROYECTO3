@@ -1,28 +1,46 @@
 import "./Card-projects.css";
 import { technologies } from "../../utils/projects-data";
 
-// import { tech } from "../../utils/projects-data"; 
+// import { tech } from "../../utils/projects-data";
 
-export const cardProject = (img, title, goal, description, tech, link, github) => {
-    return `
+export const cardProject = (
+  img,
+  title,
+  goal,
+  description,
+  tech,
+  link,
+  github
+) => {
+  console.log(tech);
+
+  return `
     <div class="card-project">
         
         <div class="card-left">
             
                 <img class="img-project" src=${img} alt=${goal} />
 
-                <a href=${link} target="_blank">
+                ${
+                  link === undefined
+                    ? ""
+                    : `<a href=${link} target="_blank">
                     <img class="link-icon" src="/icons/link.png" alt="icon-link" />
-                Live preview</a>
+                Live preview</a>`
+                }
+                
 
                 <a href=${github} target="_blank">
                     <img class="link-icon" src="/icons/github-movil.png" alt="icon-github" />
                 View code</a>
 
                 <div class="container-tech">
-                    ${tech.map((el) => 
-                        (`<img class="icon-tech" src=${technologies[el]} alt="icon-tech" />`)).join(" ")
-                    }
+                    ${tech
+                      .map(
+                        (el) =>
+                          `<img class="icon-tech" src=${technologies[el]} alt="icon-tech" />`
+                      )
+                      .join(" ")}
                 </div>
 
         </div>
@@ -38,5 +56,4 @@ export const cardProject = (img, title, goal, description, tech, link, github) =
 
     </div>
     `;
-}
-
+};

@@ -3,6 +3,9 @@ export const technologies = {
   css: "/icons/css-3.png",
   js: "/icons/javascript.png",
   react: "/icons/react.png",
+  mongodb: "/icons/mongodb.png",
+  nodejs: "/icons/node-js.png",
+  nosql: "/icons/nosql.png",
 };
 
 export const projectsData = [
