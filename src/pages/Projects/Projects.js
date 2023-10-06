@@ -11,10 +11,8 @@ export const getProjects = async () => {
   );
   const respuesta = await res.json();
 
-  projects = respuesta;
+  projects = await respuesta;
 };
-
-console.log(projects);
 
 export const Project = () => {
   const main = document.querySelector("main");

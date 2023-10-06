@@ -22,10 +22,10 @@ document.querySelector("header").innerHTML = Header();
 document.querySelector("footer").innerHTML = Footer();
 
 Home();
+getProjects();
 changeTheme();
 randomGallery();
 showContent();
-await getProjects();
 
 // Ejecutando los links
 linkPage("#logolink", Gallery);
