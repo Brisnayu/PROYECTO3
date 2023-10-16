@@ -17,12 +17,11 @@ import { randomGallery } from "./src/components/RandomGallery/Random-gallery";
 import { showContent } from "./src/components/Footer/Footer";
 import { linkPage } from "./src/utils/linkpage";
 
-
 document.querySelector("header").innerHTML = Header();
 document.querySelector("footer").innerHTML = Footer();
 
 Home();
-getProjects();
+await getProjects();
 changeTheme();
 randomGallery();
 showContent();

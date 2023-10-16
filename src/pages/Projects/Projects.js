@@ -14,13 +14,12 @@ export const getProjects = async () => {
   projects = await respuesta;
 };
 
+console.log(projects);
+
 export const Project = () => {
   const main = document.querySelector("main");
 
-  main.innerHTML = `${
-    projects.length === 0
-      ? `<h2>Cargando...</h2>`
-      : `<section class="container">
+  main.innerHTML = `<section class="container">
         <h4>Proyectos</h4>
         <article class="container-project">
         ${projects
@@ -38,8 +37,5 @@ export const Project = () => {
           )
           .join("")}
         </article>
-    </section>`
-  }
-    
-    `;
+    </section>`;
 };
