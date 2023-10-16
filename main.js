@@ -21,7 +21,7 @@ document.querySelector("header").innerHTML = Header();
 document.querySelector("footer").innerHTML = Footer();
 
 Home();
-await getProjects();
+getProjects();
 changeTheme();
 randomGallery();
 showContent();
