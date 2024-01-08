@@ -9,7 +9,7 @@ export const Home = () => {
     
         <div class="descrip">
             <h1 class="gradient">Brisna A. Páez M.</h1>
-            <h2 class="dark-mode">Estudiante Full Stack Developer.</h2>
+            <h2 class="dark-mode">Full Stack Developer.</h2>
             <p class="dark-mode">Soy una persona que le gusta estar en constante movimiento, aprender nuevas tecnologías y reinventarme.</p>
             
         </div>

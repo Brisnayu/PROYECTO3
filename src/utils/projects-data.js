@@ -116,4 +116,68 @@ export const projectsData = [
     link: "https://proyecto5-brisna-paez.netlify.app/",
     github: "https://github.com/Brisnayu/PROYECTO5",
   },
+  {
+    img: "https://res.cloudinary.com/dx8j6h1rb/image/upload/v1693650711/Imagenes%20Porfolio/imagen-proyecto-juegos.png",
+    title: "Proyecto 6",
+    goal: "React hub de juegos",
+    description: `Lo que comenzó como una idea relativamente sencilla se convirtió en un desafío que superó todas mis expectativas, 
+    poniendo a prueba mis habilidades y conocimientos de manera inesperada. Los juegos, a pesar de su aparente simplicidad inicial, 
+    demostraron ser una prueba de mi capacidad para resolver problemas complejos y aplicar soluciones creativas. Cada línea de código 
+    fue una oportunidad para aprender y crecer, y cada obstáculo superado me brindó una pequeña victoria personal.`,
+    tech: ["html", "css", "js", "react"],
+    link: "https://proyecto-juegos-brisna-paez.netlify.app/",
+    github: "https://github.com/Brisnayu/Proyecto-MERN3",
+  },
+  {
+    img: "https://res.cloudinary.com/dx8j6h1rb/image/upload/v1693651655/Imagenes%20Porfolio/img-proyecto-styled-components.png",
+    title: "Proyecto 7",
+    goal: "Styled Components",
+    description: `Primer proyecto usando solamente Styled Components para la maquetación. Además se realizaron diferentes 
+    test para así realizar comprobaciones de los diferentes elementos que se muestran en la página. Lo realmente interesante de 
+    esta web, se encuentra en el código, con los diferentes elementos reutilizables y la manera de maquetar. Fue un proyecto muy 
+    enriquecedor, ya que también utilicé componentes de MUI, lo que me motivó a investigar en la documentación la forma adecuada 
+    de utilizar estos diversos elementos, algo con lo que no había tenido la oportunidad de interactuar previamente.`,
+    tech: ["html", "css", "js", "react"],
+    link: "https://proyecto-styled-components-brisna.netlify.app/",
+    github: "https://github.com/Brisnayu/Proyecto-MERN4",
+  },
+  {
+    img: "https://res.cloudinary.com/dx8j6h1rb/image/upload/v1696519058/Imagenes%20Porfolio/PROYECTO_1_BACKEND_zwqesa.png",
+    title: "API rest",
+    goal: "Servidor de Express con MongoDB",
+    description: `Primer proyecto de BackEnd, se ha implementado la definición de un modelo de datos, donde cumplen con las cuatro 
+    operaciones básicas de las bases de datos (CRUD), las cuales son Create (Crear), Read (Leer), Update (Actualizar) y Delete (Borrar). 
+    La temática ha sido sobre gatitos, donde se podrían registrar, filtrar, crear, editar y borrar información. El código es 
+    reutilizable a cualquier otro tema requerido.`,
+    tech: ["js", "mongodb", "nodejs", "nosql"],
+    github: "https://github.com/Brisnayu/Proyecto-MERN5",
+  },
+  {
+    img: "https://res.cloudinary.com/dx8j6h1rb/image/upload/v1696524133/Imagenes%20Porfolio/PROYECTO_2_BACKEND_pgsbbx.png",
+    title: "Modelado relacional",
+    goal: "Servidor de Express con MongoDB, con modelos de datos relacionados",
+    description: `El objetivo era replicar el modelo anterior (en el proyecto de API rest), en cuanto a las 
+    operaciones básicas del CRUD, pero esta vez se tienen tres modelos de datos, los cuales están relacionados 
+    relacionados entre sí. En el código se tenía la estructura para un modelo de gatitos, uno de perritos y por último 
+    uno de cuidadores. Dentro de los datos de los cuidadores, se tendría información de las mascotas a su cargo, trayendo 
+    datos de los modelos de gatitos o perritos según sea el caso.`,
+    tech: ["js", "mongodb", "nodejs", "nosql"],
+    github: "https://github.com/Brisnayu/Proyecto-MERN6",
+  },
+  {
+    img: "https://res.cloudinary.com/dx8j6h1rb/image/upload/v1696524951/Imagenes%20Porfolio/PROYECTO_3_BACKEND_fvzetg.png",
+    title: "Servidor completo",
+    goal: "API completa con despliegue en Vercel",
+    description: `En esta ocasión, se tiene una API completa que te sumerge por completo en el apasionante mundo del 
+    mobiliario y el diseño de interiores. A medida que te adentres en esta experiencia, descubrirás algunos diseñadores 
+    de renombre y piezas de mobiliario icónicas que han dejado una marca indeleble en la historia de la decoración y el 
+    interiorismo. Este proyecto no se detiene en lo simple, ha alcanzado metas más ambiciosas. En primer lugar, se ha implementado 
+    un sistema de rutas protegidas, reservadas exclusivamente para usuarios que se hayan registrado previamente. El proceso de 
+    registro otorga a los usuarios un JWT (Token JSON Web) con una vigencia de una hora, garantizando así la seguridad de la 
+    plataforma. Además, se ha habilitado la función de carga de imágenes directamente a Cloudinary desde el backend, 
+    brindando una experiencia aún más completa y eficiente.`,
+    tech: ["js", "mongodb", "nodejs", "nosql"],
+    link: "https://mern-7-brisnayu.vercel.app/api/designer",
+    github: "https://github.com/Brisnayu/MERN7",
+  },
 ];

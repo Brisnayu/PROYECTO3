@@ -22,7 +22,7 @@ export const Project = () => {
   main.innerHTML = `<section class="container">
         <h4>Proyectos</h4>
         <article class="container-project">
-        ${projects
+        ${projectsData
           .reverse()
           .map((project) =>
             cardProject(
