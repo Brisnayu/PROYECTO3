@@ -2,47 +2,23 @@ export const infoPersonal = [
   {
     photo: "/images/image_travel.jpeg",
     alt: "image_travel",
-    desc: `Haciendo una breve introducción y para que puedan 
-    conocerme un poco más, comentar que a finales de 2017 tomé 
-    una de las decisiones más importantes de mi vida: 
-    emigrar de mi país de origen. Desde entonces, he estado viviendo 
-    permanentemente en la hermosa ciudad de Barcelona. Para mí, esta fue una 
-    oportunidad para explorar nuevos horizontes y enfrentar nuevos desafíos.`,
+    desc: `Allow me to provide a brief introduction and offer a glimpse into who I am. Towards the end of 2017, I made one of the most significant decisions of my life: to relocate from my home country. Since then, I have been permanently residing in the beautiful city of Barcelona. For me, this was an opportunity to explore new horizons and embrace fresh challenges.`,
   },
   {
     photo: "/images/image_ing.jpg",
     alt: "image_ing",
-    desc: `En cuanto a mi formación académica, soy Ingeniera Civil graduada 
-    de la Universidad de Carabobo en Venezuela en el año 2016. En el año 2019, ya en Barcelona,
-    realice un curso de Decoración e Interiorismo, lo que me permitió desarrollar mi creatividad y 
-    habilidades en diseño, 
-    formas y colores. Creo que la combinación de mis habilidades en ingeniería y mi pasión por la decoración 
-    me permite aportar una perspectiva única a los proyectos en los que trabajo.`,
+    desc: `As for my academic background, I am a Civil Engineer, having graduated from the University of Carabobo in Venezuela in 2016. In 2019, after relocating to Barcelona, I pursued a course in Decoration and Interior Design, allowing me to further develop my creativity and skills in design, shapes, and colors. I believe the combination of my engineering skills and passion for decoration enables me to contribute a unique perspective to the projects I undertake.`,
   },
   {
     photo: "/images/image_computer.jpg",
     alt: "image_computer",
-    desc: `Desde finales de enero de este año, me encuentro estudiando para convertirme en 
-    desarrollador FullStack Junior en The Power Business School, con el objetivo de impulsar 
-    mi carrera profesional. Mi principal motivación para reinventarme en este campo ha sido mi 
-    amor por la programación. Siempre he disfrutado de resolver problemas y encontrar soluciones 
-    ingeniosas en este ámbito. 
+    desc: `Since late January of this year, I have been studying to become a Junior Full Stack Developer at The Power Business School, with the goal of advancing my professional career. My main motivation for reinventing myself in this field has been my passion for programming. I have always enjoyed solving problems and finding ingenious solutions in this domain.. 
     <br/> 
-    Además, me encanta la idea de estar en constante movimiento y aprendizaje, 
-    ya que en la programación no existe una única respuesta correcta para un problema, y siempre hay nuevas 
-    herramientas y tecnologías que pueden mejorar los procesos. Estoy emocionada por lo que el futuro me 
-    depara en este campo, y estoy comprometida a seguir creciendo y mejorando en mi carrera como desarrollador 
-    FullStack Junior.`,
+    Moreover, I love the idea of being in constant motion and learning, as in programming, there is never a single correct answer to a problem, and there are always new tools and technologies that can enhance processes. I am excited about what the future holds in this field, and I am committed to continue growing and improving in my career as a Junior Full Stack Developer.`,
   },
   {
     photo: "/images/image_me_and_hera.jpg",
     alt: "image_me_and_hera",
-    desc: `En cuanto a mi personalidad, me 
-    considero una persona que ama la vida, completamente enamorada de mi gatita Hera 
-    y apasionada por Barcelona, 
-    ciudad que tiene un encanto especial que me cautivó desde el primer día que llegué.
-    Me gusta abordar cada proyecto 
-    con disciplina, perseverancia y enfoque para asegurarme de lograr los objetivos 
-    que me propongo. Además, me defino como una persona alegre y comprometida con todo lo que hago.`,
+    desc: `As for my personality, I consider myself someone who loves life, completely enamored with my cat Hera, and passionate about Barcelona—a city with a special charm that captivated me from the very first day I arrived. I approach each project with discipline, perseverance, and focus to ensure I achieve the goals I set for myself. Additionally, I define myself as a cheerful and dedicated individual in everything I do.`,
   },
 ];

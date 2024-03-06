@@ -9,8 +9,8 @@ export const Home = () => {
     
         <div class="descrip">
             <h1 class="gradient">Brisna A. Páez M.</h1>
-            <h2 class="dark-mode">Full Stack Developer.</h2>
-            <p class="dark-mode">Soy una persona que le gusta estar en constante movimiento, aprender nuevas tecnologías y reinventarme.</p>
+            <h2 class="dark-mode">Full Stack Developer Junior.</h2>
+            <p class="dark-mode">I'm someone who enjoys being in constant motion, learning new technologies, and reinventing myself.</p>
             
         </div>
         <div class="image">

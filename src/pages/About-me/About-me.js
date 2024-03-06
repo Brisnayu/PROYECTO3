@@ -8,7 +8,7 @@ export const AboutMe = () => {
 
     main.innerHTML = `
     <section class="container">
-        <h4>Conoce un poco sobre mí</h4>
+        <h4>Get to know me better</h4>
         <article class="main-personal">
             ${infoPersonal.map((el) => cardPersonal(el.photo, el.alt, el.desc)).join("")}
         </article>

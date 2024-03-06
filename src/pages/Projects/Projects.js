@@ -20,7 +20,7 @@ export const Project = () => {
   const main = document.querySelector("main");
 
   main.innerHTML = `<section class="container">
-        <h4>Proyectos</h4>
+        <h4>Projects</h4>
         <article class="container-project">
         ${projectsData
           .reverse()
